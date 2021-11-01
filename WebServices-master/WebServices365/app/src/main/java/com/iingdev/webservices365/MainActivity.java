@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             // 4 - OJO Android Studio no reconoce http://localhost
             // 5 - Bye 0mar2090
             //url= new URL("http://192.168.2.179/WebServices/Login.php?Email="+Email+"&Password="+Pass);
-            url= new URL("http://192.168.0.9/webservice/ServiciosWeb-master/Login.php?Email="+Email+"&Password="+Pass);
+            url= new URL("http://192.168.0.9/webservise/ServiciosWeb-master/Login.php?Email="+Email+"&Password="+Pass);
 
 
             HttpURLConnection Conexion=(HttpURLConnection)url.openConnection();
